@@ -15,6 +15,8 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.homepage    = "https://github.com/michal-samluk/after_deploy"
 
+  s.add_dependency 'hipchat'
+
   s.add_development_dependency 'rake', '>= 0.9.2'
   s.add_development_dependency 'rspec', '~> 3.0.0'
   s.add_development_dependency 'rspec-mocks', '~> 3.0.0'
