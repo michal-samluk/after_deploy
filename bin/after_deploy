@@ -1,5 +1,4 @@
 #!/usr/bin/env ruby
 
-require_relative '../config/boot'
 require 'after_deploy'
 AfterDeploy::Setup.call
