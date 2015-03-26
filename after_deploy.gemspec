@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "lib/after_deploy/version"
+require "after_deploy/version"
 
 Gem::Specification.new do |s|
   s.name = 'after_deploy'
