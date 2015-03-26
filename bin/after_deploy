@@ -1,4 +1,0 @@
-#!/usr/bin/env ruby
-
-require 'after_deploy'
-AfterDeploy::Setup.call
