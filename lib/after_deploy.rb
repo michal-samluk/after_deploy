@@ -12,8 +12,8 @@ module AfterDeploy
     @configuration ||= Configuration.new
   end
 
-  def self.configure(env)
-    yield(configuration) if Rails.env.in?(Array(env)) || env.to_s == 'all'
+  def self.configure(*env)
+    yield(configuration) if Rails.env.in?(env) || env.to_s == 'all'
   end
 
 end
