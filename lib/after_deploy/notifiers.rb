@@ -1,4 +1,4 @@
-module Deployment
+module AfterDeploy
   class Notifiers < Array
 
     def add(notifier)

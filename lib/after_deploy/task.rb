@@ -1,4 +1,4 @@
-module Deployment
+module AfterDeploy
   class Task
 
     attr_accessor :name, :arguments, :onetime

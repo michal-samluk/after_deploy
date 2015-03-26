@@ -1,4 +1,4 @@
-module Deployment
+module AfterDeploy
   class TaskQueue < Array
 
     def add(task, options={})

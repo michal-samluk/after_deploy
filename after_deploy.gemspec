@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "after_deploy/version"
+require "lib/after_deploy/version"
 
 Gem::Specification.new do |s|
   s.name = 'after_deploy'
@@ -18,5 +18,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rake', '>= 0.9.2'
   s.add_development_dependency 'rspec', '~> 3.0.0'
   s.add_development_dependency 'rspec-mocks', '~> 3.0.0'
+  s.add_development_dependency 'rails'
 
 end

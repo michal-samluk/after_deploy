@@ -1,4 +1,4 @@
-module Deployment
+module AfterDeploy
   module Adapters
     class Logger < ::Logger
 
