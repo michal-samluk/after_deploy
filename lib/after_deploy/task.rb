@@ -18,10 +18,10 @@ module AfterDeploy
     end
 
     def cache(key, cachable)
-      cached = Rails.cache.read(key)
+      cached = ::Rails.cache.read(key)
       unless cached
         yield(cached)
-        Rails.cache.write(key, true) if cachable
+        ::Rails.cache.write(key, true) if cachable
       end
     end
 
