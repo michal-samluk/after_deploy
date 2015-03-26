@@ -1,3 +1,4 @@
+require 'rake'
 module AfterDeploy
   class Task
 
